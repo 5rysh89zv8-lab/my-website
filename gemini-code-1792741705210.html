@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전주 한방병원 이른비한방병원 | 암환자 단기입원 및 진료 안내</title>
+    <meta name="description" content="전주 완산구 이른비한방병원의 암 치료 전후 진료 및 입원 안내입니다. 단기입원, 여성암 병동 운영, 환자 식단, 진료시간 등 환자와 보호자를 위한 필수 정보를 제공합니다.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://earlyrain.co.kr/landing-url-placeholder">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="전주 한방병원 이른비한방병원 | 암환자 단기입원 및 진료 안내">
+    <meta property="og:description" content="전주 완산구 이른비한방병원의 암 치료 전후 진료 및 입원 안내입니다. 단기입원, 여성암 병동 운영, 환자 식단, 진료시간 등 환자와 보호자를 위한 필수 정보를 제공합니다.">
+    <meta property="og:url" content="https://earlyrain.co.kr/landing-url-placeholder">
+    <meta property="og:image" content="images/hospital-exterior.jpg">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "Hospital",
+            "name": "이른비한방병원",
+            "description": "전주시 완산구에 위치한 한방병원. 암 수술 및 항암·방사선치료 전후 진료, 단기입원, 여성암 병동 운영.",
+            "url": "https://earlyrain.co.kr/",
+            "telephone": "063-222-7512",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "전북특별자치도 전주시 완산구 천잠로 45 (삼천동2가)",
+                "addressLocality": "전주시 완산구",
+                "addressRegion": "전북특별자치도",
+                "postalCode": "55070",
+                "addressCountry": "KR"
+            },
+            "sameAs": [
+                "https://naver.me/5noC43Lf",
+                "https://blog.naver.com/rounding74",
+                "https://www.instagram.com/earlyrain_hosp/"
+            ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "이른비한방병원에서는 어떤 진료와 입원 정보를 확인할 수 있나요?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "암 치료 전후 진료 안내, 단기입원, 여성암 병동 및 식단 정보를 설명합니다."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "'전주 암요양병원'을 찾고 있는데 이른비한방병원도 해당되나요?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "이른비한방병원의 정식 종별은 한방병원입니다. 의료기관 종류를 구분하여 진료 및 입원 정보를 확인하시기 바랍니다."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "짧은 기간(1박 2일 등)만 단기입원하는 것도 허용되나요?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "공식 홈페이지에 1박 2일, 2박 3일, 1주일 등의 단기입원이 안내되어 있으며, 실제 가능 여부는 상담을 통해 확정됩니다."
+                    }
+                }
+            ]
+        }
+    ]
+    </script>
+
+    <style>
+        /* CSS Variables */
+        :root {
+            --er-main-dark: #173E38;
+            --er-sub-forest: #235C50;
+            --er-accent-green: #237663;
+            --er-light-mint: #E7F1E9;
+            --er-bg-ivory: #F9F8F3;
+            --er-text-main: #203B34;
+            --er-text-sub: #61746C;
+            --er-white: #FFFFFF;
+            --er-max-width: 1140px;
+            --er-font: 'Pretendard', 'Noto Sans KR', sans-serif;
+        }
+
+        /* Reset & Base */
+        html { scroll-behavior: smooth; }
+        .er-wrap {
+            font-family: var(--er-font);
+            color: var(--er-text-main);
+            background-color: var(--er-white);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            word-break: keep-all;
+        }
+        .er-wrap * { box-sizing: border-box; }
+        .er-wrap a { text-decoration: none; color: inherit; transition: all 0.2s ease; }
+        .er-wrap img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+        .er-container { max-width: var(--er-max-width); margin: 0 auto; padding: 0 20px; }
+        
+        /* Typography */
+        .er-wrap h1, .er-wrap h2, .er-wrap h3 { margin: 0 0 16px 0; color: var(--er-main-dark); }
+        .er-wrap p { margin: 0 0 16px 0; color: var(--er-text-sub); }
+        .er-section-title { font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 40px; }
+        .er-text-accent { color: var(--er-accent-green); }
+
+        /* Buttons */
+        .er-btn {
+            display: inline-flex; justify-content: center; align-items: center;
+            padding: 12px 24px; border-radius: 30px; font-weight: 600; cursor: pointer;
+            text-align: center; border: none; font-size: 1rem;
+        }
+        .er-btn-primary { background-color: var(--er-main-dark); color: var(--er-white); }
+        .er-btn-primary:hover { background-color: var(--er-sub-forest); color: var(--er-white); }
+        .er-btn-outline { border: 1px solid var(--er-main-dark); color: var(--er-main-dark); background: transparent; }
+        .er-btn-outline:hover { background-color: var(--er-light-mint); }
+
+        /* Header */
+        .er-header {
+            position: sticky; top: 0; z-index: 1000; background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px); border-bottom: 1px solid #eee; padding: 15px 0;
+        }
+        .er-header .er-container { display: flex; justify-content: space-between; align-items: center; }
+        .er-logo { font-size: 1.25rem; font-weight: 800; color: var(--er-main-dark); line-height: 1.2; }
+        .er-logo span { display: block; font-size: 0.75rem; font-weight: 400; color: var(--er-text-sub); letter-spacing: 1px; }
+        
+        /* Nav */
+        .er-nav { display: flex; gap: 24px; align-items: center; }
+        .er-nav a { font-weight: 500; font-size: 0.95rem; }
+        .er-nav a:hover { color: var(--er-accent-green); }
+        .er-nav-cta { background-color: var(--er-main-dark); color: var(--er-white) !important; padding: 8px 20px; border-radius: 20px; }
+        
+        /* Mobile Menu */
+        .er-mobile-menu { display: none; position: relative; }
+        .er-mobile-menu summary { list-style: none; font-size: 1.5rem; cursor: pointer; color: var(--er-main-dark); }
+        .er-mobile-nav {
+            position: absolute; right: 0; top: 40px; background: var(--er-white); border: 1px solid #eee;
+            border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 200px; display: flex; flex-direction: column; padding: 10px 0;
+        }
+        .er-mobile-nav a { padding: 12px 20px; border-bottom: 1px solid #f5f5f5; }
+
+        /* Hero Section */
+        .er-hero {
+            background: linear-gradient(135deg, var(--er-light-mint) 0%, var(--er-bg-ivory) 100%);
+            padding: 80px 0; overflow: hidden;
+        }
+        .er-hero-grid { display: grid; grid-template-columns: 55% 40%; gap: 5%; align-items: center; }
+        .er-eyebrow { font-size: 0.85rem; font-weight: 700; color: var(--er-accent-green); letter-spacing: 1.5px; margin-bottom: 10px; }
+        .er-hero h1 { font-size: 2.5rem; line-height: 1.3; letter-spacing: -1px; }
+        .er-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 30px 0; }
+        .er-tags span { background: var(--er-white); color: var(--er-sub-forest); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; border: 1px solid #d0e0d6; }
+        .er-hero-img-wrap { position: relative; }
+        .er-hero-img-wrap img { box-shadow: 0 20px 40px rgba(23,62,56,0.15); }
+        .er-img-card {
+            position: absolute; bottom: -20px; left: -20px; right: 20px; background: var(--er-white);
+            padding: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); font-size: 0.85rem;
+        }
+        .er-img-card strong { color: var(--er-main-dark); display: block; font-size: 1rem; margin-bottom: 4px; }
+
+        /* Info Bar */
+        .er-info-bar { background-color: var(--er-main-dark); color: var(--er-white); padding: 20px 0; }
+        .er-info-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; text-align: center; font-size: 0.9rem; }
+        .er-info-grid div { border-right: 1px solid rgba(255,255,255,0.2); }
+        .er-info-grid div:last-child { border-right: none; }
+        .er-info-grid strong { display: block; color: var(--er-light-mint); font-size: 0.8rem; margin-bottom: 4px; }
+
+        /* Sections General */
+        .er-section { padding: 100px 0; }
+        .er-bg-ivory { background-color: var(--er-bg-ivory); }
+        
+        /* Cards (Sec 1, Sec 2) */
+        .er-cards-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .er-cards-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+        .er-card {
+            background: var(--er-white); padding: 30px; border-radius: 16px; border: 1px solid #eaeaea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; height: 100%;
+        }
+        .er-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.05); border-color: var(--er-light-mint); }
+        .er-card h3 { font-size: 1.25rem; }
+        .er-card-number { color: var(--er-accent-green); font-weight: 800; font-size: 0.9rem; margin-bottom: 8px; display: block; }
+        .er-link-arrow { display: inline-flex; align-items: center; color: var(--er-accent-green); font-weight: 600; margin-top: 15px; font-size: 0.9rem; }
+        
+        /* Notice Box */
+        .er-notice-box {
+            background: var(--er-light-mint); border-left: 4px solid var(--er-main-dark);
+            padding: 24px 30px; border-radius: 0 12px 12px 0; margin-bottom: 40px;
+        }
+        .er-notice-box h3 { font-size: 1.1rem; margin-bottom: 10px; }
+
+        /* Split Sections (Sec 3, 5) */
+        .er-split { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .er-check-list { list-style: none; padding: 0; margin: 20px 0; }
+        .er-check-list li { position: relative; padding-left: 28px; margin-bottom: 12px; color: var(--er-text-main); font-weight: 500; }
+        .er-check-list li::before {
+            content: '✓'; position: absolute; left: 0; top: 0; color: var(--er-accent-green); font-weight: bold;
+        }
+        .er-img-caption { text-align: center; font-size: 0.85rem; color: var(--er-text-sub); margin-top: 12px; }
+
+        /* Collage (Sec 4) */
+        .er-collage { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 16px; }
+        .er-collage img { width: 100%; height: 100%; object-fit: cover; }
+        .er-collage .er-col-large { grid-row: 1 / -1; }
+
+        /* FAQ (Sec 6) */
+        .er-faq-list { max-width: 800px; margin: 0 auto; }
+        .er-faq-item { border-bottom: 1px solid #eaeaea; padding: 20px 0; }
+        .er-faq-item summary {
+            font-size: 1.1rem; font-weight: 600; color: var(--er-main-dark); cursor: pointer;
+            list-style: none; display: flex; justify-content: space-between; align-items: center;
+        }
+        .er-faq-item summary::-webkit-details-marker { display: none; }
+        .er-faq-item summary::after { content: '+'; font-size: 1.5rem; color: var(--er-accent-green); }
+        .er-faq-item[open] summary::after { content: '-'; }
+        .er-faq-item p { margin: 16px 0 0 0; padding-right: 40px; color: var(--er-text-sub); }
+
+        /* Links (Sec 7) */
+        .er-links-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 800px; margin: 0 auto; }
+        .er-link-card {
+            display: flex; justify-content: space-between; align-items: center; padding: 20px 24px;
+            background: var(--er-white); border: 1px solid #eaeaea; border-radius: 12px;
+        }
+        .er-link-card:hover { border-color: var(--er-accent-green); background: var(--er-light-mint); }
+        .er-link-card strong { display: block; color: var(--er-main-dark); margin-bottom: 4px; }
+        .er-link-card span { font-size: 0.85rem; color: var(--er-text-sub); }
+
+        /* Contact (Sec 8) */
+        .er-contact-box { background: var(--er-main-dark); color: var(--er-white); border-radius: 24px; padding: 60px; }
+        .er-contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+        .er-contact-info h3, .er-contact-info p { color: var(--er-white); }
+        .er-contact-info p { opacity: 0.8; margin-bottom: 8px; }
+        .er-contact-actions { display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+        
+        /* Footer */
+        .er-footer { background: #0F2925; color: rgba(255,255,255,0.6); padding: 40px 0; text-align: center; font-size: 0.85rem; }
+        .er-footer p { color: inherit; margin-bottom: 8px; }
+        .er-footer a { color: rgba(255,255,255,0.8); margin: 0 10px; }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .er-hero-grid, .er-split, .er-contact-grid { grid-template-columns: 1fr; }
+            .er-hero-img-wrap { margin-top: 40px; }
+            .er-img-card { position: relative; bottom: 0; left: 0; right: 0; margin-top: -30px; margin-inline: 20px; }
+            .er-cards-3, .er-cards-4 { grid-template-columns: 1fr; }
+            .er-nav { display: none; }
+            .er-mobile-menu { display: block; }
+        }
+        @media (max-width: 768px) {
+            .er-info-grid { grid-template-columns: 1fr 1fr; gap: 15px; }
+            .er-info-grid div:nth-child(2) { border-right: none; }
+            .er-info-grid div:nth-child(1), .er-info-grid div:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 15px; }
+            .er-links-grid { grid-template-columns: 1fr; }
+            .er-contact-box { padding: 40px 20px; }
+            .er-section { padding: 60px 0; }
+            .er-hero { padding: 60px 0; }
+            .er-hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="er-wrap">
+    
+    <!-- Header -->
+    <header class="er-header">
+        <div class="er-container">
+            <a href="https://earlyrain.co.kr/" class="er-logo">이른비한방병원<span>EARLY RAIN · JEONJU</span></a>
+            <nav class="er-nav">
+                <a href="#guide">병원 안내</a>
+                <a href="#short-stay">단기입원</a>
+                <a href="#women-ward">여성암 병동</a>
+                <a href="#meals">환자 식단</a>
+                <a href="#faq">자주 묻는 질문</a>
+                <a href="#contact" class="er-btn er-nav-cta">입원 상담</a>
+            </nav>
+            <details class="er-mobile-menu">
+                <summary>☰</summary>
+                <nav class="er-mobile-nav">
+                    <a href="#guide">병원 안내</a>
+                    <a href="#short-stay">단기입원</a>
+                    <a href="#women-ward">여성암 병동</a>
+                    <a href="#meals">환자 식단</a>
+                    <a href="#faq">자주 묻는 질문</a>
+                    <a href="#contact">입원 상담</a>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="er-hero">
+        <div class="er-container er-hero-grid">
+            <div class="er-hero-text">
+                <p class="er-eyebrow">JEONJU · CANCER CARE INFORMATION</p>
+                <h1>전주 암환자 입원 및 진료 안내<br><span class="er-text-accent">이른비한방병원</span></h1>
+                <p>이른비한방병원은 전주시 완산구에 위치한 한방병원입니다.<br>전주 한방병원을 찾는 분들이 암 치료 전후 진료·입원 상담, 단기입원, 여성암 병동, 환자 식단 정보를 한곳에서 확인할 수 있도록 안내합니다.</p>
+                
+                <div class="er-tags">
+                    <span>#전주 한방병원</span>
+                    <span>#암환자 입원 상담</span>
+                    <span>#1박 2일 등 단기입원</span>
+                    <span>#여성암 병동</span>
+                </div>
+                
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                    <a href="#guide" class="er-btn er-btn-primary">병원·입원 정보 확인 →</a>
+                    <a href="https://naver.me/5noC43Lf" target="_blank" class="er-btn er-btn-outline">네이버 지도·길찾기</a>
+                </div>
+            </div>
+            
+            <div class="er-hero-img-wrap">
+                <img src="images/hospital-exterior.jpg" alt="이른비한방병원 건물 외관 전경" width="600" height="750" loading="lazy">
+                <div class="er-img-card">
+                    <strong>이른비한방병원 (전주시 완산구)</strong>
+                    의료기관 종별은 요양병원이 아닌 한방병원입니다. 진료 가능 여부와 입원 조건은 사전 상담을 통해 확인해 주세요.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Bar -->
+    <div class="er-info-bar">
+        <div class="er-container er-info-grid">
+            <div><strong>의료기관 종별</strong>한방병원</div>
+            <div><strong>주소</strong>전주시 완산구 천잠로 45</div>
+            <div><strong>외래 진료시간</strong>월~금 09:00~18:00</div>
+            <div><strong>토요일 진료</strong>09:00~13:00</div>
+        </div>
+    </div>
+
+    <!-- SECTION 01: 병원 안내 -->
+    <section id="guide" class="er-section">
+        <div class="er-container">
+            <h2 class="er-section-title">현재 상황을 선택해보세요</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 40px auto;">'전주 암요양병원'을 검색할 때는 병원 이름에 쓰인 표현보다 실제 의료기관 종별, 환자 상태에 맞는 진료 가능 여부, 입원 기간과 병동 운영 정보를 확인하는 것이 중요합니다.</p>
+            
+            <div class="er-notice-box">
+                <h3 class="er-text-accent">먼저 알아두세요 — 이른비한방병원은 한방병원입니다.</h3>
+                <p style="margin:0;">이른비한방병원은 전주시 완산구에 위치하며 암 수술 및 항암·방사선치료 전후 진료를 안내합니다. 단기입원, 여성암 병동, 환자 식단 등의 정보를 확인할 수 있으며 실제 진료 및 입원 가능 여부는 환자 상태와 병원 운영 상황에 따라 결정됩니다.</p>
+                <div style="margin-top: 12px; font-size: 0.85rem;">
+                    근거 링크: <a href="https://earlyrain.co.kr/a5" target="_blank" style="text-decoration:underline;">진료안내</a> | <a href="https://earlyrain.co.kr/a3" target="_blank" style="text-decoration:underline;">입원안내</a>
+                </div>
+            </div>
+
+            <div class="er-cards-3">
+                <div class="er-card">
+                    <span class="er-card-number">POINT 01</span>
+                    <h3>암 수술 전·후 상담이 필요해요</h3>
+                    <p>수술 일정과 현재 상태, 필요한 의료서비스 등을 확인하는 안내</p>
+                    <a href="https://earlyrain.co.kr/b4" target="_blank" class="er-link-arrow">상세 보기 →</a>
+                </div>
+                <div class="er-card">
+                    <span class="er-card-number">POINT 02</span>
+                    <h3>항암·방사선치료 관련 상담이 필요해요</h3>
+                    <p>현재 치료 일정과 건강 상태를 고려한 진료·입원 상담 안내</p>
+                    <a href="https://earlyrain.co.kr/b1" target="_blank" class="er-link-arrow">상세 보기 →</a>
+                </div>
+                <div class="er-card">
+                    <span class="er-card-number">POINT 03</span>
+                    <h3>암환자 입원생활을 알아보고 있어요</h3>
+                    <p>병원 위치, 의료진, 입원 형태, 운영시간, 비용 등을 확인하는 안내</p>
+                    <a href="https://earlyrain.co.kr/a3" target="_blank" class="er-link-arrow">상세 보기 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 02: 입원 상담 전 확인사항 -->
+    <section class="er-section er-bg-ivory">
+        <div class="er-container">
+            <h2 class="er-section-title">입원 상담 전 확인해보세요</h2>
+            <div class="er-cards-4">
+                <div class="er-card">
+                    <span class="er-card-number">01</span>
+                    <h3>암종·치료 단계 확인</h3>
+                    <p>현재 수술, 항암, 방사선치료 일정 및 치료받는 의료기관 확인</p>
+                </div>
+                <div class="er-card">
+                    <span class="er-card-number">02</span>
+                    <h3>입원 기간과 일정</h3>
+                    <p>희망 입원 기간, 입원 시작일, 외래진료 고려 여부</p>
+                </div>
+                <div class="er-card">
+                    <span class="er-card-number">03</span>
+                    <h3>입원 가능 여부와 병실</h3>
+                    <p>의료진 판단, 필요한 의료서비스, 병실 현황, 이용 조건 확인</p>
+                </div>
+                <div class="er-card">
+                    <span class="er-card-number">04</span>
+                    <h3>비용과 준비물</h3>
+                    <p>예상 비용, 급여·비급여 구분, 진료기록 및 준비서류 확인</p>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 30px; font-size: 0.9rem;">※ 응급 증상이 있을 경우 적절한 응급의료기관을 우선 이용하시기 바랍니다.</p>
+        </div>
+    </section>
+
+    <!-- SECTION 03: 암환자 단기입원 -->
+    <section id="short-stay" class="er-section">
+        <div class="er-container er-split">
+            <div>
+                <h2>암환자 단기입원, 기간부터 확인하세요</h2>
+                <p>이른비한방병원 공식 홈페이지에는 1박 2일, 2박 3일, 1주일 등의 단기입원 형태가 소개되어 있습니다.<br>실제 입원 가능 기간과 일정은 환자 상태, 의료진 판단, 병실 현황에 따라 달라질 수 있습니다.</p>
+                <ul class="er-check-list">
+                    <li>희망 입원 시작일 및 기간</li>
+                    <li>현재 암 치료 일정</li>
+                    <li>병실 현황 및 입원 조건</li>
+                    <li>예상 비용과 준비서류</li>
+                    <li>입·퇴원 절차</li>
+                </ul>
+                <a href="https://earlyrain.co.kr/a5" target="_blank" class="er-btn er-btn-outline" style="margin-top: 20px;">단기입원 안내 바로가기</a>
+            </div>
+            <div>
+                <img src="images/short-stay-room.jpg" alt="단기입원 환자를 위한 이른비한방병원 병실 내부 전경" loading="lazy">
+                <p class="er-img-caption">단기입원 기간은 병원 상담을 통해 확인해 주세요.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 04: 여성암 병동 -->
+    <section id="women-ward" class="er-section er-bg-ivory">
+        <div class="er-container er-split">
+            <div class="er-collage">
+                <img src="images/womens-cancer-ward.jpg" alt="여성암 병동 전경" class="er-col-large" loading="lazy">
+                <img src="images/patient-room.jpg" alt="여성암 환자 전용 병실 내부 환경" loading="lazy">
+                <img src="images/rooftop-lounge.jpg" alt="여성암 환자를 위한 휴게 편의 공간" loading="lazy">
+            </div>
+            <div>
+                <h2>여성암 환자를 위한 병동 운영 안내</h2>
+                <p>이른비한방병원 공식 홈페이지에는 여성암 병동 운영 정보가 소개되어 있습니다.<br>유방암·부인암 등 암종이나 치료 단계에 따라 필요한 의료서비스가 다르므로 실제 입원 조건과 병실 이용 가능 여부는 상담을 통해 확인합니다.</p>
+                <ul class="er-check-list">
+                    <li>여성암 병동 운영 여부</li>
+                    <li>병실 현황과 이용 조건</li>
+                    <li>의료진 소개</li>
+                    <li>실제 병원 시설</li>
+                    <li>이용 가능한 편의공간</li>
+                </ul>
+                <a href="https://earlyrain.co.kr/a3" target="_blank" class="er-btn er-btn-outline" style="margin-top: 20px;">의료진 및 입원 안내 보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 05: 환자 식단 -->
+    <section id="meals" class="er-section">
+        <div class="er-container er-split">
+            <div>
+                <h2>실제 환자 식단을 살펴볼 수 있습니다</h2>
+                <p>이른비한방병원은 공식 홈페이지에서 날짜별 환자 식단 기록을 공개하고 있습니다.<br>입원을 고려할 때 식사의 종류, 개별 식단 조정 가능 범위, 영양 관련 상담 절차 등을 확인할 수 있도록 안내합니다.</p>
+                <ul class="er-check-list">
+                    <li>날짜별 주간식단 메뉴</li>
+                    <li>실제 병원 식사 사진</li>
+                    <li>식이·영양 관리 정보</li>
+                    <li>개인 상태에 따른 식단 조정 상담</li>
+                </ul>
+                <div style="display: flex; gap: 12px; margin-top: 20px;">
+                    <a href="https://earlyrain.co.kr/c2" target="_blank" class="er-btn er-btn-primary">주간식단 확인</a>
+                    <a href="https://earlyrain.co.kr/c1" target="_blank" class="er-btn er-btn-outline">식이·영양 안내</a>
+                </div>
+            </div>
+            <div>
+                <img src="images/patient-meals.jpg" alt="이른비한방병원 입원 환자에게 제공되는 항암 식단 예시 사진" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 06: FAQ -->
+    <section id="faq" class="er-section er-bg-ivory">
+        <div class="er-container">
+            <h2 class="er-section-title">환자·보호자가 자주 묻는 질문</h2>
+            <div class="er-faq-list">
+                <details class="er-faq-item">
+                    <summary>Q1. 이른비한방병원에서는 어떤 진료와 입원 정보를 확인할 수 있나요?</summary>
+                    <p>암 치료 전후 진료 안내, 단기입원, 여성암 병동 및 식단 정보를 상세하게 설명하고 안내해 드리고 있습니다.</p>
+                </details>
+                <details class="er-faq-item">
+                    <summary>Q2. '전주 암요양병원'을 찾고 있는데 이른비한방병원도 해당되나요?</summary>
+                    <p>이른비한방병원의 정식 종별은 요양병원이 아닌 '한방병원'입니다. 환자분들께서 검색 편의를 위해 해당 키워드를 사용하시더라도, 실제 의료기관 종류를 명확히 구분하여 진료 및 입원 안내를 받으시기 바랍니다.</p>
+                </details>
+                <details class="er-faq-item">
+                    <summary>Q3. 짧은 기간(1박 2일 등)만 단기입원하는 것도 허용되나요?</summary>
+                    <p>공식 홈페이지의 단기입원 안내 메뉴를 통해 1박 2일, 2박 3일, 1주일 등의 단기입원 형태를 소개하고 있습니다. 단, 실제 입원 가능 여부와 기간은 환자의 상태 및 병실 현황에 따라 의료진 상담을 거쳐 확정됩니다.</p>
+                </details>
+                <details class="er-faq-item">
+                    <summary>Q4. 항암이나 방사선치료를 받는 도중 입원을 문의해도 될까요?</summary>
+                    <p>네, 가능합니다. 환자분의 현재 치료 일정과 건강 상태를 면밀히 확인한 후, 입원 가능 여부는 담당 의료진의 판단에 따라 결정 및 안내됩니다.</p>
+                </details>
+                <details class="er-faq-item">
+                    <summary>Q5. 여성 암환자를 위한 전용 병동이 마련되어 있습니까?</summary>
+                    <p>공식 홈페이지를 통해 여성암 병동 운영 정보를 안내하고 있습니다. 현재 이용 가능한 병실 현황과 상세 이용 조건은 병원 상담을 통해 확인해 주시기 바랍니다.</p>
+                </details>
+                <details class="er-faq-item">
+                    <summary>Q6. 입원 시 필요한 서류나 예상 비용은 어떻게 확인하나요?</summary>
+                    <p>예상 비용과 준비 서류는 입원 기간 및 진료 내용에 따라 다릅니다. 홈페이지의 공식 비급여 안내를 참고하시고, 상세 내역은 병원 원무과 상담을 통해 개별 확인하실 수 있습니다.</p>
+                </details>
+                <details class="er-faq-item">
+                    <summary>Q7. 입원 환자에게 제공되는 식단 정보는 어디서 보나요?</summary>
+                    <p>공식 홈페이지의 '주간식단' 페이지에서 날짜별 식단 사진과 메뉴를 확인하실 수 있습니다. 개인별 특성에 맞춘 식단 조정 가능 여부는 입원 시 병원 영양실과 문의해 주시면 됩니다.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 07: 공식 채널 및 참고자료 -->
+    <section class="er-section">
+        <div class="er-container">
+            <h2 class="er-section-title">병원 공식 정보와 운영 채널 바로가기</h2>
+            <div class="er-links-grid">
+                <a href="https://earlyrain.co.kr/" target="_blank" class="er-link-card">
+                    <div>
+                        <strong>공식 홈페이지</strong>
+                        <span>이른비한방병원 종합 안내</span>
+                    </div>
+                    <span style="font-size: 1.2rem;">↗</span>
+                </a>
+                <a href="https://naver.me/5noC43Lf" target="_blank" class="er-link-card">
+                    <div>
+                        <strong>네이버 플레이스</strong>
+                        <span>위치, 리뷰, 진료시간 상세</span>
+                    </div>
+                    <span style="font-size: 1.2rem;">↗</span>
+                </a>
+                <a href="https://blog.naver.com/rounding74" target="_blank" class="er-link-card">
+                    <div>
+                        <strong>네이버 공식 블로그</strong>
+                        <span>병원 소식 및 건강 정보</span>
+                    </div>
+                    <span style="font-size: 1.2rem;">↗</span>
+                </a>
+                <a href="https://www.instagram.com/earlyrain_hosp/" target="_blank" class="er-link-card">
+                    <div>
+                        <strong>인스타그램</strong>
+                        <span>병원 일상 및 식단 피드</span>
+                    </div>
+                    <span style="font-size: 1.2rem;">↗</span>
+                </a>
+                <a href="https://earlyrain.co.kr/a5" target="_blank" class="er-link-card">
+                    <div>
+                        <strong>단기입원·외래진료 안내</strong>
+                        <span>입원 절차 및 진료 과목</span>
+                    </div>
+                    <span style="font-size: 1.2rem;">↗</span>
+                </a>
+                <a href="https://earlyrain.co.kr/c2" target="_blank" class="er-link-card">
+                    <div>
+                        <strong>실제 환자 주간식단</strong>
+                        <span>제공되는 항암 식단 사진</span>
+                    </div>
+                    <span style="font-size: 1.2rem;">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 08: 오시는 길 및 상담 -->
+    <section id="contact" class="er-section" style="padding-top: 0;">
+        <div class="er-container">
+            <div class="er-contact-box">
+                <div class="er-contact-grid">
+                    <div class="er-contact-info">
+                        <h2 style="color: #fff; margin-bottom: 24px;">전주 이른비한방병원<br>방문·입원 상담 안내</h2>
+                        <p><strong>의료기관 종별:</strong> 한방병원</p>
+                        <p><strong>주소:</strong> 전북특별자치도 전주시 완산구 천잠로 45 (삼천동2가)</p>
+                        <p><strong>대표전화:</strong> 063-222-7512</p>
+                        <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.2);">
+                            <p><strong>평일:</strong> 09:00~18:00 (점심 12:30~14:00)</p>
+                            <p><strong>토요일:</strong> 09:00~13:00</p>
+                            <p><strong>휴진:</strong> 일요일·공휴일</p>
+                            <p><strong>주차:</strong> 병원 건물 주차장 이용 안내</p>
+                        </div>
+                    </div>
+                    <div class="er-contact-actions">
+                        <a href="tel:063-222-7512" class="er-btn" style="background:var(--er-white); color:var(--er-main-dark); width:100%; font-size:1.1rem; padding: 16px;">전화 상담 바로가기</a>
+                        <a href="https://naver.me/5noC43Lf" target="_blank" class="er-btn er-btn-outline" style="border-color:var(--er-white); color:var(--er-white); width:100%; padding: 16px;">네이버 지도·길찾기</a>
+                        <a href="https://earlyrain.co.kr/a6" target="_blank" class="er-btn er-btn-outline" style="border-color:var(--er-white); color:var(--er-white); width:100%; padding: 16px;">공식 진료시간 및 오시는 길 안내</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="er-footer">
+        <div class="er-container">
+            <p>© 2026 이른비한방병원 | 의료기관 정보 및 입원 상담 안내</p>
+            <p>본 페이지는 개별 치료 결과를 보장하지 않으며 암 진단·치료와 관련한 결정은 담당 의료진과 상의해야 합니다.</p>
+            <div style="margin-top: 16px;">
+                <a href="https://earlyrain.co.kr/" target="_blank">공식 홈페이지</a> | 
+                <a href="https://naver.me/5noC43Lf" target="_blank">네이버 플레이스</a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
